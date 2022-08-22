@@ -8,7 +8,7 @@ import { AiOutlineArrowLeft, AiOutlineArrowRight } from "react-icons/ai";
 import { BiRightArrowAlt } from "react-icons/bi";
 import { Input } from "../Form";
 
-import footerIcon from "../../../src/assets/footer-roket 1.png";
+import footerIcon from "../../../src/assets/footer-roket-1.png";
 import userPhoto from "../../../src/assets/user.png";
 import partnerLogo from "../../../src/assets/partner.png";
 
