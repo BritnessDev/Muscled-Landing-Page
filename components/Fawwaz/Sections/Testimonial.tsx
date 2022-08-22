@@ -28,7 +28,7 @@ const Testimonials: FC = () => {
 					</Button>
 				</div>
 				<div className="w-[500px] min-h-[400px] h-full bg-white-gray relative">
-					<VideoFrame className="w-full h-full absolute" allowFullScreen frameBorder="0" />
+					<VideoFrame className="w-full h-full absolute" allowFullScreen />
 				</div>
 			</Section>
 		</div>
