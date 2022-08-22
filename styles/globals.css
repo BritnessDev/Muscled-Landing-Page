@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base{
+	html, body{
+		@apply font-sans bg-[#f5f5f5];
+	}
+
+	h1, h2, h3, h4, h5, h6{
+		@apply font-bold;
+	}
+}
+
+@layer components {
+	/* seo-marketing-serices */
+	.max-w-1240 {
+		@apply max-w-[1240px];
+	}
+
+	.max-w-640 {
+		@apply max-w-[640px];
+	}
+
+	.leading-72 {
+		@apply leading-[72.8px];
+	}
+
+
+	.card-icon{
+		@apply w-7 h-7;
+	}
+
+	.footer-img{
+		@apply relative bg-[url('../src/assets/user.png')] bg-cover w-20 h-20 z-10 rounded-full translate-x-2 translate-y-2;
+	}
+
+	.footer-img-border{
+		@apply absolute w-[120%] h-[120%] bg-red-800 inset-0 rounded-full;
+	}
+
+	.seo-audit-article h2, .seo-audit-article h3, .seo-audit-article h4{
+		@apply text-black-80;
+	}
+	
+	.seo-audit-article p, .seo-audit-article ul {
+		@apply text-black-70;
+	}
+}
+
+.seo-marketing-services-ads{
+	background-image: url('../src/assets/main.png');
+	background-position: center;
+	background-size: cover;
+	padding: 60px 40px;
+	position: relative;
+}
+
+.seo-marketing-services-ads::after{
+	content: '';
+	position: absolute;
+	background: #2E1E34E5;
+	inset: 0;
+}
+
+.seo-audit-services-ads{
+	background-image: url('../src/assets/main.png');
+	background-position: center;
+	background-size: cover;
+	padding: 60px 40px;
+	position: relative;
+}
+
+.seo-audit-services-ads::after{
+	content: '';
+	position: absolute;
+	background: #083A74CC;
+	inset: 0;
+}
