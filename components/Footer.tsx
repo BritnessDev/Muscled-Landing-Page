@@ -1,18 +1,18 @@
 import { FC } from "react";
 
-import { Section } from ".";
-import Button from "../Button";
-import { Counter, CounterBox } from "../Counter";
+import { Section } from "./Fawwaz/Sections";
+import Button from "./Fawwaz/Button";
+import { Counter, CounterBox } from "./Fawwaz/Counter";
 
 import { AiOutlineArrowLeft, AiOutlineArrowRight } from "react-icons/ai";
 import { BiRightArrowAlt } from "react-icons/bi";
-import { Input } from "../Form";
+import { Input } from "./Fawwaz/Form";
 
-import footerIcon from "../../../src/assets/footer-roket-1.png";
-import userPhoto from "../../../src/assets/user.png";
-import partnerLogo from "../../../src/assets/partner.png";
+import footerIcon from "/src/assets/footer-roket-1.png";
+// import userPhoto from "../../../src/assets/user.png";
+import partnerLogo from "/src/partner.png";
 
-import { IProps } from "../../../types/types";
+import { IProps } from "../types/types";
 
 const Footer: FC<IProps> = ({ className }) => {
 	return (
