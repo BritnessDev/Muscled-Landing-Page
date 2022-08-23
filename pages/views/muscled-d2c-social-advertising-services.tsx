@@ -1,8 +1,8 @@
 import React from "react";
 import { NextPage } from "next";
 import { Hero, Section } from "components/Fawwaz/Sections";
-import SEOMarketingSVG from "src/assets/svg/SEOMarketingSVG";
-import logo from "src/assets/logo/logo1.png";
+import SEOMarketingSVG from "components/assets/svg/SEOMarketingSVG";
+import logo from "components/assets/logo/logo1.png";
 import Logo from "components/Fawwaz/Logo";
 
  const Page: NextPage = () => {

@@ -1,9 +1,9 @@
 import React from "react";
 import { NextPage } from "next";
 import { Hero, Section } from "components/Fawwaz/Sections";
-import SocialMediaAdSVG from "src/assets/svg/SocialMediaAdSVG";
+import SocialMediaAdSVG from "components/assets/svg/SocialMediaAdSVG";
 import Logo from "components/Fawwaz/Logo";
-import logo from "src/assets/logo/logo1.png";
+import logo from "components/assets/logo/logo1.png";
 import Card from "components/Card";
 
  const Page: NextPage = () => {

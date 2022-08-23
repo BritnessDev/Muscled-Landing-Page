@@ -18,10 +18,10 @@ import { Table, TableOfContent, Td, Th } from "components/Fawwaz/Table";
 
 // assets
 // SVG
-import SEOMarketingSVG from "src/assets/svg/SEOMarketingSVG";
-import logo from "src/assets/logo/logo1.png";
-import cardBg from "src/assets/qwe.png";
-import sectionIcon from "src/assets/1.png";
+import SEOMarketingSVG from "components/assets/svg/SEOMarketingSVG";
+import logo from "components/assets/logo/logo1.png";
+import cardBg from "components/assets/qwe.png";
+import sectionIcon from "components/assets/1.png";
 
 import { AiFillPhone, AiFillStar, AiOutlineCheck } from "react-icons/ai";
 import { FaCheckCircle } from "react-icons/fa";

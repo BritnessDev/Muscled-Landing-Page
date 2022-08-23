@@ -1,8 +1,8 @@
 import React, { FC } from 'react'
 import { IProps } from '../types/types'
 import Button from './Button'
-import Star from "src/assets/svg/Star";
-import Check from "src/assets/svg/Check"
+import Star from "./assets/svg/Star";
+import Check from "./assets/svg/Check"
 import Image from 'next/image';
 
 const Card: FC<IProps> = ({ type, starIcon, subtitle, list, title, description, duration, highlight, height }) => {

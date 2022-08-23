@@ -27,6 +27,7 @@
     "isolatedModules": true,
     "incremental": true
   },
-  "include": ["./pages/**/*", "./src/**/*", "./ui/**/*", "types/types.ts"],
-  "exclude": ["node_modules"]
+  "include": ["./pages/**/*", "./src/**/*", "./ui/**/*", "types/types.ts", "assets/**/*"],
+  "exclude": ["node_modules"],
+  "files": ["custom.d.ts"]
 }
