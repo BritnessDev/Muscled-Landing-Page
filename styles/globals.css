@@ -35,7 +35,7 @@
 	}
 
 	.footer-img{
-		@apply relative bg-[url('../src/assets/user.png')] bg-cover w-20 h-20 z-10 rounded-full translate-x-2 translate-y-2;
+		@apply relative  bg-cover w-20 h-20 z-10 rounded-full translate-x-2 translate-y-2;
 	}
 
 	.footer-img-border{
@@ -50,9 +50,9 @@
 		@apply text-black-70;
 	}
 }
-/* 
+
 .seo-marketing-services-ads{
-	background-image: url('../src/assets/main.png');
+
 	background-position: center;
 	background-size: cover;
 	padding: 60px 40px;
@@ -67,7 +67,7 @@
 }
 
 .seo-audit-services-ads{
-	background-image: url('../src/assets/main.png');
+	
 	background-position: center;
 	background-size: cover;
 	padding: 60px 40px;
@@ -79,4 +79,4 @@
 	position: absolute;
 	background: #083A74CC;
 	inset: 0;
-} */
+} 

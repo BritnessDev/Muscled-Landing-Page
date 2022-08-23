@@ -1,8 +1,8 @@
 import { FC, useEffect, useState } from 'react'
-import '../styles/globals.css'
+import 'styles/globals.css'
 import type { AppProps /*, AppContext */ } from 'next/app'
-import Sidebar from '../components/sidebar'
-import Header from '../components/Header'
+import Sidebar from 'components/sidebar'
+import Header from 'components/Header'
 
 const MyApp: FC<AppProps> = ({ Component, pageProps }) => {
   const [showChild, setShowChild] = useState(false);

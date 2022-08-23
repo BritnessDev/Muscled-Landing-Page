@@ -1,7 +1,7 @@
 import { FC, useEffect, useState } from 'react'
 import React from 'react'
 import Image from 'next/image';
-import logo from "src/assets/logo/logo1.png";
+import logo from "components/assets/logo/logo1.png";
 import { ChevronDownIcon, MenuIcon } from '@heroicons/react/outline'
 import { useRouter } from 'next/router';
 import Link from 'next/link';
