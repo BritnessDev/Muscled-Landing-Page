@@ -21,8 +21,8 @@ function Hero() {
         </p>
 
         <div className={styles.content__btns}>
-          <Button inverted label="Social Media Cost Generator" />
-          <Button label="Get Custom Pricing" />
+          <Button white text="Social Media Cost Generator" />
+          <Button text="Get Custom Pricing" />
         </div>
       </article>
 
