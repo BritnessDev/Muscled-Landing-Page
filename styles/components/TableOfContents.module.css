@@ -1,0 +1,19 @@
+.wrapper {
+  @apply w-full lg:w-[506px] text-gray-400;
+}
+
+.wrapper__header {
+  @apply rounded-lg bg-[#BDBDBD] flex gap-3 items-center;
+
+  padding: 16px 28px 16px 28px;
+}
+
+.wrapper__content {
+  @apply flex flex-col gap-3 list-disc;
+
+  padding: 16px 28px 16px 28px;
+}
+
+.wrapper__content li:hover {
+  @apply underline;
+}

@@ -1,0 +1,56 @@
+.card {
+  @apply bg-white rounded-lg hover:shadow-lg
+  flex flex-col items-center gap-3 w-[344px] pb-4;
+}
+
+/* HEADER */
+
+.card__header {
+  @apply flex flex-col gap-3 items-center bg-accent-white rounded-lg p-4 w-full;
+}
+
+.header__bar {
+  @apply bg-white w-[89px] h-[89px] grid place-content-center rounded-full shadow-lg;
+}
+
+.header__plan {
+  @apply text-[30px] uppercase font-bold;
+}
+
+/* HEADER - Price */
+
+.header__price {
+  @apply flex justify-center items-center;
+}
+
+.header__price span:first-of-type {
+  @apply text-[48px] text-blue-500 font-bold;
+}
+
+.header__price span:last-of-type {
+  @apply text-[24px] text-gray-400;
+}
+
+.header__bar svg {
+  width: 39px;
+  height: 40px;
+}
+
+/* BODY */
+
+.card__body {
+  @apply w-full py-2 px-6 flex flex-col gap-8;
+}
+
+/* DIVIDER */
+
+.card__divider {
+  @apply h-[0.5px] border-b-[1px] border-solid border-black w-full;
+}
+
+/* INFO */
+
+.card__info {
+  @apply text-[24px] leading-[36px] text-blue-500 font-bold 
+  text-center uppercase px-[30.5px] py-[43px];
+}

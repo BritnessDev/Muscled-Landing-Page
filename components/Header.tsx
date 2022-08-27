@@ -73,6 +73,12 @@ const Header: FC = () => {
               <Link href={`/muscled-d2c-social-advertising-services`}>
                 <li className='p-2 cursor-pointer bg-slate-50'>Muscled D2C Social Advertising Services</li>
               </Link>
+
+              <Link href={`/social-media-marketing-cost`}>
+                <li className='p-2 cursor-pointer bg-slate-50'>Social Media Marketing Cost</li>
+              </Link>
+
+              
               
             </ul>
           </div>

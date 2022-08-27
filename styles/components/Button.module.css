@@ -1,0 +1,5 @@
+.btn {
+  @apply font-semibold rounded-lg border border-solid border-black
+  px-[24px] py-[16px]
+  text-[16px];
+}

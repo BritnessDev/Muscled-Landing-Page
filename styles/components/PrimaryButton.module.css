@@ -1,0 +1,5 @@
+.btn {
+  @apply font-semibold rounded-lg border border-solid border-black leading-[150%]
+  p-[12px] md:px-[40px] md:py-[15px]
+  text-[17px] md:text-[20px];
+}

@@ -17,7 +17,8 @@ export interface ButtonProps {
   shadow?: boolean
   rounded?: boolean
   arrow?: string
-  text: string
+  text?: string
+  label?:string
 }
 
 // card props and counter props

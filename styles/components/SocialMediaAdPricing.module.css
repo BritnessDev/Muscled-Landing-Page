@@ -1,0 +1,48 @@
+.wrapper {
+  @apply mt-20 lg:mt-40;
+}
+
+/* HEADER */
+
+.wrapper__header {
+  @apply p-6 flex flex-col justify-center items-center gap-6;
+  background-color: rgba(196, 0, 0, 0.03);
+}
+
+.wrapper__header h3,
+.wrapper__header p {
+  @apply text-center 
+  w-full sm:w-[90%] lg:w-[80%] xl:w-[54%];
+}
+
+/* ARTICLES */
+
+.wrapper__content {
+  @apply flex flex-col gap-4 lg:flex-row-reverse 
+  mt-6 md:mt-12 p-4 
+  justify-center;
+}
+
+/* ASIDE */
+
+.wrapper__aside {
+  @apply w-full lg:w-[506px] lg:h-[284px] p-3 flex flex-col gap-8;
+}
+
+.aside__promotion_card {
+  @apply bg-black rounded-lg w-full sm:w-[506px] p-4 flex flex-col gap-3 justify-between;
+}
+
+/* ARTICLE */
+
+.wrapper__articles {
+  @apply w-full lg:w-[50%] flex flex-col gap-24;
+}
+
+.wrapper__articles article {
+  @apply flex flex-col gap-[38px] lg:p-0 px-4;
+}
+
+.wrapper__articles article p {
+  @apply text-gray-400;
+}
