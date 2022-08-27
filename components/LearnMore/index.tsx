@@ -1,7 +1,13 @@
+import { ReactNode } from "react";
 import styles from "styles/components/LearnMore.module.css";
 
+interface Props{
+  title?:string
+  contents:ReactNode[]
+}
+
 function LearnMore() {
-  const Card = ({ title, contents }) => (
+  const Card = ({ title, contents }:Props) => (
     <div className={styles.wrapper__card}>
       <h4>{title}</h4>
 
