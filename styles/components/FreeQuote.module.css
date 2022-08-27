@@ -1,0 +1,32 @@
+.wrapper {
+  @apply bg-[#086680] flex flex-col gap-6 
+  justify-center items-center p-4 md:p-14 text-white;
+}
+
+.wrapper h3 {
+  @apply text-white text-center mb-4 md:mb-16;
+}
+
+.wrapper__content {
+  @apply flex gap-16 justify-between 
+  flex-col-reverse md:flex-row;
+}
+
+.wrapper__content img {
+  @apply h-[200px] sm:h-[300px] lg:h-max object-cover;
+}
+
+/* ARTICLE */
+
+.content__article {
+  @apply flex flex-col gap-[38px] lg:p-0 px-4 
+  w-full md:w-[50%];
+}
+
+.content__article p {
+  @apply text-[20px] leading-[30px];
+}
+
+.content__article button {
+  @apply md:w-max;
+}

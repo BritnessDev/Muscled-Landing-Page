@@ -1,0 +1,16 @@
+.wrapper {
+  @apply flex flex-col gap-4 items-center p-4;
+}
+
+.wrapper__heading {
+  @apply text-center 
+  w-full md:w-[80%] lg:w-[70%] xl:w-[58%];
+}
+
+.wrapper_description {
+  @apply text-center;
+}
+
+.wrapper__plans {
+  @apply flex flex-wrap justify-center items-center gap-6 mt-10;
+}

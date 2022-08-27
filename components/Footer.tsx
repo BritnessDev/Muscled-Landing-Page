@@ -30,7 +30,7 @@ const Footer: FC<IProps> = ({ className }) => {
 						/>
 						<div className="flex items-center gap-10 flex-wrap ml-0 col-span-2">
 							<Counter className="text-white">
-								<h4 className="text-lg md:text-2xl">
+								<h4 className="text-lg text-white md:text-2xl">
 									We've driven over
 								</h4>
 								<div className="flex gap-2 md:gap-4">
@@ -53,7 +53,7 @@ const Footer: FC<IProps> = ({ className }) => {
 										6
 									</CounterBox>
 								</div>
-								<h4 className="text-lg md:text-2xl">
+								<h4 className="text-lg text-white md:text-2xl">
 									leads for clients.
 								</h4>
 							</Counter>
@@ -83,8 +83,8 @@ const Footer: FC<IProps> = ({ className }) => {
 						needs and I look forward to working with them on future
 						projects.
 					</p>
-					<div className="font-bold mt-9">
-						<h4>Owner</h4>
+					<div className="font-bold text-white mt-9">
+						<h4 className="text-white">Owner</h4>
 						<p>ARIZONA GARAGE DOOR SUPPLIER</p>
 					</div>
 					<div className="flex items-center gap-4 justify-end mt-9">
@@ -116,18 +116,18 @@ const Footer: FC<IProps> = ({ className }) => {
 									Ready to speak with a marketing expert? Give
 									us a ring
 								</p>
-								<h3 className="text-4xl">508-504-9466</h3>
+								<h3 className="text-4xl text-white">508-504-9466</h3>
 							</div>
 						</div>
 						<div className="flex text-white gap-10 items-center">
 							<div className="flex flex-col font-semibold">
-								<h4 className="text-xl text-right">
+								<h4 className="text-xl text-white text-right">
 									1.6 million
 								</h4>
 								<p className="text-xs">Hours of expertise</p>
 							</div>
 							<div className="flex flex-col font-semibold">
-								<h4 className="text-xl text-right">450+</h4>
+								<h4 className="text-xl text-white text-right">450+</h4>
 								<p className="text-xs">
 									Digital Marketing
 									<br />
@@ -135,7 +135,7 @@ const Footer: FC<IProps> = ({ className }) => {
 								</p>
 							</div>
 							<div className="flex flex-col font-semibold">
-								<h4 className="text-xl text-right">1,128 </h4>
+								<h4 className="text-xl text-white text-right">1,128 </h4>
 								<p className="text-xs">Website Launched</p>
 							</div>
 						</div>
@@ -145,8 +145,8 @@ const Footer: FC<IProps> = ({ className }) => {
 			<div className="w-full bg-black-footer">
 				<Section className="grid lg:grid-cols-5 py-16 gap-10">
 					<div className="text-white">
-						<h3 className="font-semibold text-2xl">Services</h3>
-						<div className="text-white-70 space-y-10 mt-11">
+						<h3 className="font-semibold text-white text-2xl">Services</h3>
+						<div className="text-white space-y-10 mt-11">
 							<p>Digital Marketing Services</p>
 							<p>SEO Services</p>
 							<p>PPC Services</p>
@@ -157,7 +157,7 @@ const Footer: FC<IProps> = ({ className }) => {
 						</div>
 					</div>
 					<div className="text-white">
-						<h3 className="font-semibold text-2xl">
+						<h3 className="font-semibold text-white text-2xl">
 							Knowledge Base
 						</h3>
 						<div className="text-white-70 space-y-10 mt-11">
@@ -171,7 +171,7 @@ const Footer: FC<IProps> = ({ className }) => {
 						</div>
 					</div>
 					<div className="text-white">
-						<h3 className="font-semibold text-2xl">Company</h3>
+						<h3 className="font-semibold text-white text-2xl">Company</h3>
 						<div className="text-white-70 space-y-10 mt-11">
 							<p>Digital Marketing Agency</p>
 							<p>SEO Agency</p>
@@ -183,7 +183,7 @@ const Footer: FC<IProps> = ({ className }) => {
 						</div>
 					</div>
 					<div className="text-white">
-						<h3 className="font-semibold text-2xl">Resources</h3>
+						<h3 className="font-semibold text-white text-2xl">Resources</h3>
 						<div className="text-white-70 space-y-10 mt-11">
 							<p>About Us</p>
 							<p>Contact Us</p>
@@ -198,7 +198,7 @@ const Footer: FC<IProps> = ({ className }) => {
 						<p className="text-white-70 text-xs">
 							REVENUE DRIVEN FOR OUR CLIENTS
 						</p>
-						<h3 className="font-semibold text-2xl">
+						<h3 className="font-semibold text-white text-2xl">
 							$3,021,182,299
 						</h3>
 					</div>

@@ -1,0 +1,52 @@
+.wrapper {
+  @apply flex flex-col lg:flex-row;
+}
+
+/* PROPOSAL */
+
+.wrapper__proposal {
+  @apply bg-[#C40000] flex flex-col gap-4
+  w-full xl:w-[55%]
+  p-6 xl:py-12 xl:px-20;
+}
+
+.proposal__counter {
+  @apply flex justify-between
+  flex-col xl:flex-row;
+}
+
+.proposal__counter img {
+  @apply h-[200px] w-[100px] object-contain;
+}
+
+.counter {
+  @apply flex gap-2;
+}
+
+.counter__count {
+  @apply text-[20px] xl:text-[40px] leading-[100%] font-semibold text-[#C40000] rounded-lg
+  p-[12px] xl:p-[20px];
+
+  background: linear-gradient(to right, #ffffff, #cbddff);
+}
+
+/* FORM */
+
+.wrapper__proposal form {
+  @apply w-full px-4 py-4 flex justify-between gap-1 flex-col xl:flex-row;
+
+  background: rgba(255, 255, 255, 0.6);
+  border: 1px solid #828282;
+  border-radius: 8px;
+}
+
+.wrapper__proposal form input {
+  @apply outline-none border-none flex-grow;
+  background: transparent;
+}
+
+/* ARTICLE 2 */
+
+.article_2 {
+  @apply xl:w-[45%] bg-[#8E0000] text-white px-20 py-20 flex flex-col gap-6;
+}

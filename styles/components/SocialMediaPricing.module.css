@@ -1,0 +1,24 @@
+.wrapper {
+  @apply flex flex-col lg:flex-row-reverse gap-8 
+  px-[8px] lg:pl-[100px] lg:pr-[20px] justify-between;
+}
+
+/* ASIDE */
+
+.wrapper__aside {
+  @apply w-full lg:w-[506px] lg:h-[284px];
+}
+
+/* ARTICLES */
+
+.wrapper__articles {
+  @apply w-full lg:w-[55%] flex flex-col gap-24;
+}
+
+.wrapper__articles article {
+  @apply flex flex-col gap-[38px] lg:p-0 px-4;
+}
+
+.wrapper__articles article p {
+  @apply text-gray-400;
+}

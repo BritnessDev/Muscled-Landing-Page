@@ -1,0 +1,14 @@
+.wrapper {
+  @apply bg-[#086680] flex flex-col gap-6 
+  justify-center items-center p-4 md:p-14;
+}
+
+.wrapper__form {
+  @apply flex flex-col gap-4 items-center justify-center
+  w-full lg:w-[60%] sm:flex-row;
+}
+
+.form__input {
+  @apply flex-grow px-4 py-4 rounded-lg 
+  w-full sm:w-[60%];
+}
