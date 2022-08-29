@@ -9,7 +9,7 @@ const CardFooter: FC = () => {
 			<Button
 				bgColor="bg-[#000]"
 				textColor="text-white"
-				className="py-4 px-10 text-[0.8em]">
+				className="py-4 px-10 text-[0.8em] text-xl">
 				Customize My Plan
 			</Button>
 		</div>
