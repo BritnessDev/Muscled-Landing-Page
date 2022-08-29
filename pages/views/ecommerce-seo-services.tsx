@@ -1350,15 +1350,82 @@ import { BsDot } from "react-icons/bs"
                                         <path stroke-linecap="round" stroke-linejoin="round" d="M11.25 4.5l7.5 7.5-7.5 7.5m-6-15l7.5 7.5-7.5 7.5" />
                                     </svg>
                                     <p className="text-sm text-black">FAQ on SEO for e-commerce websites
-
+                                        sdf
                                     </p>
                                 </div>
                             </ul>
                         </div>
                     </div>
+                    
                 </div>
-            </div>
+                <div className="p-3 flex flex-col items-start justify-start w-11/12 mt-3">
+                <h1 className="text-3xl">FAQ on SEO for e-commerce <br/>websites</h1>
+                <p className="mt-3">Do you still have concerns regarding e-commerce website SEO services? <br/>Check out our FAQ!</p>
+                <p className="text-2xl font-medium mt-3">What is SEO for e-commerce?</p>
+                <p className="mt-3">
+                SEO for e-commerce websites is referred to as ecommerce SEO. <br/>
+                Ecommerce SEO, in contrast to traditional SEO, employs several methods <br/>
+                and approaches to raise the position of your website in search results on <br/>
+                sites like Google and Bing.
+                </p>
+                <p className="text-2xl font-medium mt-3">What are SEO services for e-commerce?</p>
+                <p className="mt-3">
+                Ecommerce SEO services offer specialized, professional SEO services for <br/>
+                your e-commerce website to your online business. These services, as <br/>
+                opposed to conventional SEO services, concentrate on ecommerce-specific <br/>
+                strategies, such as the use of product markup, to increase the visibility of <br/>
+                your website in search results.
+                </p>
+                <p className="text-2xl font-medium mt-3">How much do ecommerce SEO services cost?</p>
+                <p className="mt-3">
+                The cost of ecommerce SEO services varies and is determined by the <br/>
+                agency and service plans they offer. Our SEO services at Muscled range in <br/>
+                price from $1250 to $4000 per month for ecommerce websites. Additionally, <br/>
+                for bigger online companies, we provide unique pricing.
+                </p>
+                <p className="text-2xl font-medium mt-3">How long does ecommerce SEO take?</p>
+                <p className="mt-3">
+                Like traditional SEO, ecommerce SEO might take several months to produce <br/>
+                results. In most circumstances, it takes three to six months to start seeing <br/>
+                effects, such as higher rankings. The majority of SEO services for <br/>
+                ecommerce websites demand a commitment of a few months due to this <br/>
+                three- to six-month period.
+                </p>
+                <p className="text-2xl font-medium mt-3">What kinds of online stores can use ecommerce SEO services?</p>
+                <p className="mt-3">
+                Ecommerce SEO services are available to all online stores. At Muscled, we <br/>
+                have more than 25 years of expertise working with ecommerce websites to <br/>
+                provide SEO services. Additionally, we've collaborated with customers that <br/>
+                use a variety of e-commerce tools, including Shopify and WooCommerce.<br/>
+                Please don't hesitate to reach out to us online if you have any further <br/>
+                inquiries regarding our e-commerce SEO services.
+                </p>
+                <p className="text-2xl font-medium mt-3">Ready to make your store more visible online?</p>
+                <p className="mt-3">
+                You shouldn't have to browse your online store on page two (or worse). You <br/>
+                may experience the power of being on page one and having an e-<br/>
+                commerce website that ranks highly, attracts as many consumers as <br/>
+                possible, and converts more clicks into purchases with assistance from one <br/>
+                of the country's top SEO services.
+                </p>
+                <p className="mt-3">You may succeed with Muscled and our ecommerce SEO services.<p/>
+                
+                <p className="mt-3">
+                To see how a personalized ecommerce SEO campaign may increase your <br/>
+                store's visibility and convert more of your traffic into actual, paying <br/>
+                customers, get in touch with Muscled now. We'll collaborate with you to <br/>
+                develop a strategy that is entirely tailored to your requirements.
+                </p>
+                
 
+                <p className="mt-3">
+                To speak with a skilled strategist, just reach out to us online or by phone at <br/>
+                ########
+                </p>
+                </p>
+            </div>
+            </div>
+           
     </div>
 )}
 
