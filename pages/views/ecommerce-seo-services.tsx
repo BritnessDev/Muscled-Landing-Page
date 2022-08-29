@@ -126,8 +126,6 @@ import { BsDot } from "react-icons/bs"
                 <path d="M123.338 29.3391C122.16 29.3391 121.273 29.0117 120.678 28.357C120.095 27.7022 119.803 26.8392 119.803 25.7678V20.5H122.946V25.4106C122.946 26.3987 123.392 26.8927 124.285 26.8927C124.69 26.8927 125.059 26.7975 125.392 26.607C125.725 26.4165 125.999 26.1368 126.213 25.7678V20.5H129.356V29.0712H126.321V28.1427C125.952 28.5355 125.505 28.8331 124.981 29.0355C124.458 29.2379 123.91 29.3391 123.338 29.3391Z" fill="black" fill-opacity="0.8"/>
                 <path d="M130.965 20.5002H133.876V21.4288C134.233 21.0479 134.644 20.7562 135.108 20.5538C135.572 20.3395 136.066 20.2324 136.59 20.2324C137.233 20.2324 137.745 20.3276 138.126 20.5181C138.519 20.7086 138.834 20.9943 139.072 21.3752C139.429 21.0181 139.864 20.7383 140.376 20.536C140.888 20.3336 141.406 20.2324 141.929 20.2324C143.06 20.2324 143.864 20.5241 144.34 21.1074C144.816 21.6788 145.054 22.5061 145.054 23.5894V29.0714H142.054V24.0359C142.054 23.5597 141.965 23.2145 141.786 23.0002C141.608 22.7859 141.31 22.6788 140.894 22.6788C140.358 22.6788 139.923 22.8692 139.59 23.2502C139.602 23.4525 139.608 23.7621 139.608 24.1787V29.0714H136.608V23.9109C136.608 23.4704 136.531 23.1549 136.376 22.9645C136.221 22.774 135.947 22.6788 135.555 22.6788C134.947 22.6788 134.424 23.018 133.983 23.6966V29.0714H130.965V20.5002Z" fill="black" fill-opacity="0.8"/>
             </svg>
-
-
             </div>
         </Section>
 
@@ -1078,34 +1076,289 @@ import { BsDot } from "react-icons/bs"
 						</tbody>
 					</Table>
                 </div>
+
                 <div className="w-11/12 mt-12 flex flex-row items-start justify-between">
                     <div className="w-2/3">
                         <h1 className="text-4xl">
                         What do our ecommerce SEO <br/>
                         services include?
                         </h1>
+                        <p className="mt-10">
+                        We provide a variety of ecommerce SEO services due to the complex <br/>process:        
+                        </p>
+                        <ul className="list-disc pl-10 text-black">
+                            <li>Custom ecommerce SEO strategy</li>
+                            <li>Online project management schedule</li>
+                            <li>MuscledSoftware access</li>
+                            <li>Keyword research and optimization</li>
+                            <li>Product markup</li>
+                            <li>Product image optimization</li>
+                            <li>Product SEO copywriting</li>
+                            <li>Professional blog or article copywriting</li>
+                            <li>Google Analytics setup</li>
+                            <li>Google Search Console setup</li>
+                            <li>Monthly keyword, traffic, and transaction reporting</li>
+                            <li>And more</li>
+                        </ul>
+
+                        <div className="mt-3 bg-[#2E1E34] w-full rounded-lg text-white flex flex-row justify-between items-center px-3 bg-gradient-to-l md:bg-gradient-to-r">
+                            <div className="py-14 pl-10">
+                               <div className="text-4xl	'Poppins' leading-snug font-bold">
+                               Measure the<br/>
+                                metrics that <br/>
+                                influence your <br/>
+                                bottom line<br/>
+                               </div>
+                               <div className="mt-10">
+                                Do you want custom reporting <br/>
+                                specific to the needs of your unique<br/>
+                                business? Muscled creates custom<br/>
+                                reports based on the metrics that<br/>
+                                matter most to your company.<br/>
+                               </div>
+                               <div className="mt-10 flex flex-col">
+                                    <div className="flex flex-row justify-start items-center">
+                                        <div className="flex flex-row justify-start items-center">
+                                            <svg width="24" height="23" viewBox="0 0 24 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M21.2752 0.90561C18.1114 3.64386 15.4346 6.25049 12.984 9.65136C11.9032 11.1514 10.7014 12.9169 9.91573 14.5837C9.46723 15.4676 8.65873 16.8487 8.3831 18.1766C6.8756 16.7741 5.25635 15.1822 3.5996 13.9354C2.41873 13.047 -0.982523 14.8582 0.401977 15.9C2.88335 17.7664 4.94698 20.091 7.36048 22.0406C8.36998 22.8551 10.6072 21.0862 11.133 20.3441C12.8587 17.8991 13.0946 14.9104 14.3524 12.2434C16.2727 8.16448 19.6785 4.81386 23.0411 1.90424C25.269 -0.17364 22.968 -0.55689 21.2786 0.90561" fill="#37B34A"/>
+                                            </svg>
+                                            <p className="ml-1">Leads</p>
+                                        </div>
+                                        <div className="flex flex-row justify-start items-center ml-5">
+                                            <svg width="24" height="23" viewBox="0 0 24 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M21.2752 0.90561C18.1114 3.64386 15.4346 6.25049 12.984 9.65136C11.9032 11.1514 10.7014 12.9169 9.91573 14.5837C9.46723 15.4676 8.65873 16.8487 8.3831 18.1766C6.8756 16.7741 5.25635 15.1822 3.5996 13.9354C2.41873 13.047 -0.982523 14.8582 0.401977 15.9C2.88335 17.7664 4.94698 20.091 7.36048 22.0406C8.36998 22.8551 10.6072 21.0862 11.133 20.3441C12.8587 17.8991 13.0946 14.9104 14.3524 12.2434C16.2727 8.16448 19.6785 4.81386 23.0411 1.90424C25.269 -0.17364 22.968 -0.55689 21.2786 0.90561" fill="#37B34A"/>
+                                            </svg>
+                                            <p className="ml-1">Transactions</p>
+                                        </div>
+                                    </div>
+                                    <div className="flex flex-row justify-start items-center">
+                                        <div className="flex flex-row justify-start items-center">
+                                            <svg width="24" height="23" viewBox="0 0 24 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M21.2752 0.90561C18.1114 3.64386 15.4346 6.25049 12.984 9.65136C11.9032 11.1514 10.7014 12.9169 9.91573 14.5837C9.46723 15.4676 8.65873 16.8487 8.3831 18.1766C6.8756 16.7741 5.25635 15.1822 3.5996 13.9354C2.41873 13.047 -0.982523 14.8582 0.401977 15.9C2.88335 17.7664 4.94698 20.091 7.36048 22.0406C8.36998 22.8551 10.6072 21.0862 11.133 20.3441C12.8587 17.8991 13.0946 14.9104 14.3524 12.2434C16.2727 8.16448 19.6785 4.81386 23.0411 1.90424C25.269 -0.17364 22.968 -0.55689 21.2786 0.90561" fill="#37B34A"/>
+                                            </svg>
+                                            <p className="ml-1">Calls</p>
+                                        </div>
+                                        <div className="flex flex-row justify-start items-center ml-5">
+                                            <svg width="24" height="23" viewBox="0 0 24 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M21.2752 0.90561C18.1114 3.64386 15.4346 6.25049 12.984 9.65136C11.9032 11.1514 10.7014 12.9169 9.91573 14.5837C9.46723 15.4676 8.65873 16.8487 8.3831 18.1766C6.8756 16.7741 5.25635 15.1822 3.5996 13.9354C2.41873 13.047 -0.982523 14.8582 0.401977 15.9C2.88335 17.7664 4.94698 20.091 7.36048 22.0406C8.36998 22.8551 10.6072 21.0862 11.133 20.3441C12.8587 17.8991 13.0946 14.9104 14.3524 12.2434C16.2727 8.16448 19.6785 4.81386 23.0411 1.90424C25.269 -0.17364 22.968 -0.55689 21.2786 0.90561" fill="#37B34A"/>
+                                            </svg>
+                                            <p className="ml-1">Revenue</p>
+                                        </div>
+                                    </div>
+                               </div>
+                               <Button
+                                    bgColor="bg-black"
+                                    textColor="text-white"
+                                    className="mt-14">
+                                    <span className="text-sm md:col-span-1 flex flex-row items-center">
+                                        Learn More
+                                        <i className="text-sm">
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-6">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                                            </svg>
+                                        </i>
+                                    </span>
+                                </Button>
+                            </div>
+                            <div>
+                            <svg width="230" height="271" viewBox="0 0 230 271" fill="none" xmlns="http://www.w3.org/2000/svg" className="pr-3">
+<path d="M149.048 199.024C145.641 197.894 143.096 195.003 142.378 191.45L137.42 166.913L95.0103 168.419L89.7907 193.98C89.0599 197.56 91.9858 201.152 95.3556 202.47L113.099 209.412C116.399 210.704 119.947 211.218 123.472 210.916L160.97 207.708C162.066 207.615 162.945 206.753 163.073 205.647C163.201 204.542 163.968 203.301 162.923 202.954L149.048 199.024Z" fill="#97A6B7"/>
+<path d="M149.465 197.531C146.062 196.415 143.519 193.56 142.801 190.052L137.848 165.823L96.4724 167.311L91.2579 192.552C90.5279 196.087 92.4595 199.632 95.826 200.934L113.552 207.789C116.849 209.064 120.393 209.572 123.915 209.274L161.375 206.107C162.47 206.014 163.348 205.163 163.475 204.071C163.603 202.98 162.944 201.949 161.9 201.607L149.465 197.531Z" fill="url(#paint0_linear_2_6643)"/>
+<path d="M8.36116 183.22C3.76206 183.494 0 180.511 0 176.568V34.4581C0 30.5155 3.76206 27.4709 8.36116 27.6699L221.047 36.8856C224.424 37.032 227.157 39.8784 227.157 43.2324V164.096C227.157 167.449 224.423 170.341 221.047 170.542L8.36116 183.22Z" fill="url(#paint1_linear_2_6643)"/>
+<path d="M10.2752 183.22C5.67613 183.494 1.91406 180.511 1.91406 176.568V34.4581C1.91406 30.5155 5.67613 27.4709 10.2752 27.6699L222.961 36.8856C226.338 37.032 229.071 39.8784 229.071 43.2324V164.096C229.071 167.449 226.337 170.341 222.961 170.542L10.2752 183.22Z" fill="url(#paint2_linear_2_6643)"/>
+<path opacity="0.3" d="M222.958 39.7287L10.2722 30.9796C7.81381 30.8784 5.81445 32.5031 5.81445 34.6087V145.133V176.353C5.81445 178.459 7.81381 180.051 10.2722 179.909L222.958 167.696C224.768 167.592 226.231 166.049 226.231 164.25V136.621V43.1212C226.232 41.3217 224.768 39.8032 222.958 39.7287Z" fill="#D8DEE8"/>
+<path d="M10.2719 167.837C9.31449 167.884 8.53516 167.256 8.53516 166.437V34.7135C8.53516 33.8949 9.31449 33.2594 10.2719 33.297L222.958 41.72C223.664 41.7476 224.237 42.3422 224.237 43.0446V155.985C224.237 156.688 223.664 157.287 222.958 157.322L10.2719 167.837Z" fill="url(#paint3_linear_2_6643)"/>
+<path opacity="0.6" d="M200.751 161.745C182.858 150.677 195.356 119.206 175.262 103.394C155.003 87.4532 126.496 107.005 112.305 90.4961C101.739 78.204 114.102 63.3606 104.013 51.8009C88.1914 33.6721 47.6875 58.6051 29.0787 40.7447C26.4363 38.2085 23.7705 34.362 22.2528 28.1892L10.2684 27.6699C5.66929 27.4709 1.90723 30.5155 1.90723 34.4581V176.568C1.90723 180.511 5.66929 183.494 10.2684 183.22L222.954 170.541C226.331 170.339 229.064 167.448 229.064 164.094V161.945C214.943 166.738 206.31 165.182 200.751 161.745Z" fill="white"/>
+<path d="M22.0771 157.094L73.2693 154.957V128.12L22.0771 129.361V157.094Z" fill="#F4F7FA"/>
+<g opacity="0.7">
+<path d="M159.215 110.882L166.992 110.774V53.9113L159.215 53.7114V110.882Z" fill="#F4F7FA"/>
+<path d="M145.181 111.075L153.109 110.965V82.2602L145.181 82.2134V111.075Z" fill="#F4F7FA"/>
+<path d="M130.866 111.271L138.95 111.16V47.6989L130.866 47.4614V111.271Z" fill="#F4F7FA"/>
+<path d="M116.275 111.475L124.519 111.361V56.7832L116.275 56.5942V111.475Z" fill="#F4F7FA"/>
+<path d="M101.396 111.68L109.804 111.564V96.7837L101.396 96.8171V111.68Z" fill="#F4F7FA"/>
+<path d="M86.2119 111.888L94.7897 111.77V76.6843L86.2119 76.604V111.888Z" fill="#F4F7FA"/>
+<path d="M70.7168 112.102L79.4693 111.981V60.9024L70.7168 60.731V112.102Z" fill="#F4F7FA"/>
+<path d="M54.9082 112.32L63.8422 112.196V74.5657L54.9082 74.4712V112.32Z" fill="#F4F7FA"/>
+<path d="M38.7705 112.543L47.8893 112.417V53.4442L38.7705 53.2251V112.543Z" fill="#F4F7FA"/>
+<path d="M22.2891 112.77L31.6002 112.641V46.4076L22.2891 46.145V112.77Z" fill="#F4F7FA"/>
+</g>
+<path d="M174.138 150.75L212.395 149.153V145.282L174.138 146.772V150.75Z" fill="#F4F7FA"/>
+<path d="M174.138 99.4023L212.395 99.1748V95.3032L174.138 95.4245V99.4023Z" fill="#F4F7FA"/>
+<path d="M174.138 92.5916L212.395 92.5456V88.674L174.138 88.6138V92.5916Z" fill="#F4F7FA"/>
+<path d="M174.138 145.252L180.372 145.015V138.915L174.138 139.124V145.252Z" fill="#F4F7FA"/>
+<path d="M36.1372 140.2C39.3891 140.323 39.8725 138.44 43.0743 138.258C48.5046 137.949 49.8349 143.234 55.0671 143.153C59.3384 143.087 60.4137 139.519 64.6424 139.914C67.7857 140.209 68.4044 142.301 71.4691 142.601C72.0812 142.661 72.6833 142.638 73.2703 142.552V154.958L22.0781 157.093V135.143C24.8225 135.34 26.8252 135.962 28.2602 136.591C31.7112 138.104 32.8559 140.077 36.1372 140.2Z" fill="#F4F7FA"/>
+<path d="M174.138 83.2178L212.395 83.4218V49.8559L174.138 48.7329V83.2178Z" fill="#F4F7FA"/>
+<path d="M22.2949 126.316L166.997 123.084V117.018L22.2949 119.641V126.316Z" fill="#F4F7FA"/>
+<path d="M79.4688 154.7L166.99 151.048V125.432L79.4688 127.528V154.7Z" fill="#F4F7FA"/>
+<path d="M95.2383 7.8208V64.9358C95.2383 66.8323 96.7744 68.3692 98.6642 68.3692H207.996C209.641 68.3692 210.973 66.9393 210.973 65.1749V12.0403L95.2383 7.8208Z" fill="url(#paint4_linear_2_6643)"/>
+<path d="M207.996 5.17404L98.6642 0.710399C96.7735 0.633468 95.2383 2.10769 95.2383 4.00419V9.85676L210.973 13.9341V8.48957C210.973 6.72519 209.642 5.24094 207.996 5.17404Z" fill="url(#paint5_linear_2_6643)"/>
+<path d="M103.092 5.44982C103.092 6.28853 102.415 6.94411 101.579 6.91317C100.741 6.88223 100.062 6.17564 100.062 5.33526C100.062 4.49488 100.741 3.84014 101.579 3.87275C102.415 3.90369 103.092 4.61028 103.092 5.44982Z" fill="white"/>
+<path d="M118.745 60.9705L110.17 60.932V18.4497L118.745 18.7098V60.9705Z" fill="white"/>
+<path d="M118.745 60.9707L110.17 60.9322V40.7622L118.745 40.906V60.9707Z" fill="url(#paint6_linear_2_6643)"/>
+<path d="M130.528 61.0241L122.076 60.9856V18.811L130.528 19.0677V61.0241Z" fill="white"/>
+<path d="M130.528 61.0234L122.076 60.985V50.9731L130.528 51.0635V61.0234Z" fill="url(#paint7_linear_2_6643)"/>
+<path d="M142.141 61.0752L133.81 61.0376V19.1665L142.141 19.419V61.0752Z" fill="white"/>
+<path d="M142.141 61.0763L133.81 61.0387V55.8208L142.141 55.8852V61.0763Z" fill="url(#paint8_linear_2_6643)"/>
+<path d="M153.592 61.1282L145.379 61.0914V19.5181L153.592 19.7673V61.1282Z" fill="white"/>
+<path d="M153.592 61.1282L145.379 61.0914V28.5239L153.592 28.7271V61.1282Z" fill="url(#paint9_linear_2_6643)"/>
+<path d="M164.877 61.1787L156.78 61.142V19.8638L164.877 20.1096V61.1787Z" fill="white"/>
+<path d="M164.877 61.1793L156.78 61.1426V32.481L164.877 32.6624V61.1793Z" fill="url(#paint10_linear_2_6643)"/>
+<path d="M176.01 61.2295L168.026 61.1936V20.2056L176.01 20.4472V61.2295Z" fill="white"/>
+<path d="M176.01 61.2289L168.026 61.193V26.1646L176.01 26.3769V61.2289Z" fill="url(#paint11_linear_2_6643)"/>
+<path d="M186.988 61.2795L179.115 61.2436V20.5415L186.988 20.7807V61.2795Z" fill="white"/>
+<path d="M186.988 61.2793L179.115 61.2434V36.2427L186.988 36.4032V61.2793Z" fill="url(#paint12_linear_2_6643)"/>
+<path d="M197.81 61.3281L190.045 61.2929V20.8735L197.81 21.1085V61.3281Z" fill="white"/>
+<path d="M197.81 61.3265L190.045 61.2914V47.2583L197.81 47.3628V61.3265Z" fill="url(#paint13_linear_2_6643)"/>
+<path d="M39.3916 147.95L38.9342 146.605C38.205 144.46 39.4041 142.173 41.61 141.501L128.105 115.153L130.741 124.086L44.6822 150.593C42.488 151.27 40.1183 150.088 39.3916 147.95Z" fill="url(#paint14_linear_2_6643)"/>
+<path d="M181.866 150.95C157.087 158.981 130.532 144.939 122.788 118.908C114.858 92.2516 129.8 63.973 155.9 56.4589C181.528 49.0794 207.443 64.8251 214.056 90.9513C220.519 116.484 206.218 143.058 181.866 150.95ZM179.867 143.674C200.429 137.067 212.481 114.641 206.962 93.1246C201.334 71.1885 179.527 58.0811 158.062 64.3258C136.267 70.6659 123.763 94.2944 130.317 116.603C136.74 138.472 159 150.378 179.867 143.674Z" fill="url(#paint15_linear_2_6643)"/>
+<path opacity="0.3" d="M128.106 115.153L117.077 118.513C116.32 122.03 114.849 124.045 113.369 125.273C107.798 129.89 100.36 124.854 89.9817 130.269C84.7738 132.986 85.7639 134.715 80.8822 136.611C72.812 139.745 69.1185 135.404 61.9765 138.257C54.7526 141.143 54.041 147.379 49.9436 147.155C48.1909 147.06 45.9349 145.785 43.4187 140.95L41.61 141.502C39.4041 142.174 38.205 144.461 38.9342 146.606L39.3916 147.95C40.1183 150.088 42.488 151.269 44.6822 150.594L130.741 124.087L128.106 115.153Z" fill="#D8DEE8"/>
+<path opacity="0.56" d="M181.91 147.249C160.327 154.195 137.283 141.895 130.619 119.264C123.817 96.1622 136.766 71.6874 159.344 65.1316C181.57 58.6778 204.13 72.2644 209.939 94.9672C215.633 117.22 203.168 140.408 181.91 147.249Z" fill="white"/>
+<path d="M183.544 153.191C158.765 161.221 132.209 147.179 124.465 121.148C116.536 94.4918 131.478 66.2132 157.577 58.6991C183.206 51.3196 209.121 67.0653 215.734 93.1915C222.196 118.723 207.895 145.298 183.544 153.191ZM181.544 145.913C202.106 139.306 214.158 116.88 208.639 95.364C203.011 73.4271 181.204 60.3205 159.739 66.5652C137.944 72.9053 125.44 96.5338 131.994 118.842C138.418 140.711 160.678 152.618 181.544 145.913Z" fill="url(#paint16_linear_2_6643)"/>
+<path d="M182.838 150.623C159.441 158.183 134.406 144.891 127.133 120.332C119.695 95.217 133.773 68.5891 158.344 61.4881C182.498 54.5083 206.962 69.3149 213.23 93.9594C219.362 118.074 205.854 143.186 182.838 150.623ZM181.544 145.913C202.106 139.307 214.158 116.88 208.639 95.3642C203.012 73.4273 181.204 60.3207 159.739 66.5655C137.944 72.9056 125.441 96.5341 131.994 118.842C138.419 140.711 160.678 152.618 181.544 145.913Z" fill="url(#paint17_linear_2_6643)"/>
+<defs>
+<linearGradient id="paint0_linear_2_6643" x1="122.517" y1="245.024" x2="127.805" y2="193.905" gradientUnits="userSpaceOnUse">
+<stop stop-color="#444B8C"/>
+<stop offset="0.9964" stop-color="#26264F"/>
+</linearGradient>
+<linearGradient id="paint1_linear_2_6643" x1="85.8292" y1="102.392" x2="30.0096" y2="108.855" gradientUnits="userSpaceOnUse">
+<stop stop-color="#444B8C"/>
+<stop offset="0.3946" stop-color="#383C74"/>
+<stop offset="0.9964" stop-color="#26264F"/>
+</linearGradient>
+<linearGradient id="paint2_linear_2_6643" x1="180.832" y1="-0.115284" x2="31.0007" y2="227.863" gradientUnits="userSpaceOnUse">
+<stop stop-color="#444B8C"/>
+<stop offset="0.9964" stop-color="#26264F"/>
+</linearGradient>
+<linearGradient id="paint3_linear_2_6643" x1="161.652" y1="28.9753" x2="-13.4447" y2="285.745" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFC444"/>
+<stop offset="0.9964" stop-color="#F36F56"/>
+</linearGradient>
+<linearGradient id="paint4_linear_2_6643" x1="161.832" y1="-1.01013" x2="138.478" y2="99.9005" gradientUnits="userSpaceOnUse">
+<stop stop-color="#D8DEE8"/>
+<stop offset="1" stop-color="white"/>
+</linearGradient>
+<linearGradient id="paint5_linear_2_6643" x1="161.938" y1="-5.94452" x2="114.201" y2="72.0958" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FF9085"/>
+<stop offset="1" stop-color="#FB6FBB"/>
+</linearGradient>
+<linearGradient id="paint6_linear_2_6643" x1="119.034" y1="36.5839" x2="108.155" y2="70.5339" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FF9085"/>
+<stop offset="1" stop-color="#FB6FBB"/>
+</linearGradient>
+<linearGradient id="paint7_linear_2_6643" x1="128.841" y1="48.0741" x2="122.807" y2="66.9027" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FF9085"/>
+<stop offset="1" stop-color="#FB6FBB"/>
+</linearGradient>
+<linearGradient id="paint8_linear_2_6643" x1="139.549" y1="53.5377" x2="135.812" y2="65.2009" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FF9085"/>
+<stop offset="1" stop-color="#FB6FBB"/>
+</linearGradient>
+<linearGradient id="paint9_linear_2_6643" x1="156.518" y1="22.8799" x2="139.8" y2="75.0514" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FF9085"/>
+<stop offset="1" stop-color="#FB6FBB"/>
+</linearGradient>
+<linearGradient id="paint10_linear_2_6643" x1="167.073" y1="27.3416" x2="152.229" y2="73.668" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FF9085"/>
+<stop offset="1" stop-color="#FB6FBB"/>
+</linearGradient>
+<linearGradient id="paint11_linear_2_6643" x1="179.529" y1="20.2584" x2="161.674" y2="75.9762" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FF9085"/>
+<stop offset="1" stop-color="#FB6FBB"/>
+</linearGradient>
+<linearGradient id="paint12_linear_2_6643" x1="188.551" y1="31.5987" x2="175.479" y2="72.3918" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FF9085"/>
+<stop offset="1" stop-color="#FB6FBB"/>
+</linearGradient>
+<linearGradient id="paint13_linear_2_6643" x1="197.227" y1="43.994" x2="189.385" y2="68.4674" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FF9085"/>
+<stop offset="1" stop-color="#FB6FBB"/>
+</linearGradient>
+<linearGradient id="paint14_linear_2_6643" x1="130.74" y1="132.969" x2="38.7208" y2="132.969" gradientUnits="userSpaceOnUse">
+<stop stop-color="#444B8C"/>
+<stop offset="0.9964" stop-color="#26264F"/>
+</linearGradient>
+<linearGradient id="paint15_linear_2_6643" x1="215.608" y1="103.922" x2="120.661" y2="103.922" gradientUnits="userSpaceOnUse">
+<stop stop-color="#444B8C"/>
+<stop offset="0.9964" stop-color="#26264F"/>
+</linearGradient>
+<linearGradient id="paint16_linear_2_6643" x1="180.953" y1="157.285" x2="165.683" y2="87.1578" gradientUnits="userSpaceOnUse">
+<stop stop-color="#444B8C"/>
+<stop offset="0.9964" stop-color="#26264F"/>
+</linearGradient>
+<linearGradient id="paint17_linear_2_6643" x1="158.244" y1="54.6614" x2="179.554" y2="148.709" gradientUnits="userSpaceOnUse">
+<stop stop-color="#444B8C"/>
+<stop offset="0.9964" stop-color="#26264F"/>
+</linearGradient>
+</defs>
+</svg>
+
+                            </div>
+                        </div>
                     </div>
                     <div className="w-1/3">
-                    <div className="order-1 col-span-1 lg:order-2 lg:col-span-2 lg:ml-auto md:w-full lg:max-w-[400px]">
-			<div className="bg-[#F2F2F2] text-white rounded-md p-4 flex justify-between items-center">
-				<h2 className="flex items-center text-lg gap-2">
-					<FaListAlt size={20} />
-					Table of Contents
-				</h2>
-				<BiUpArrowAlt size={25} />
-			</div>
-			<ul className="w-full">
-				<IconItem
-					icon={<BsDot />}
-					title="Our Process"
-					className="underline decoration-[#5F27BD] text-[#5F27BD] mt-2"
-				/>
-				
-			</ul>
-		</div>
+                        <div className="order-1 col-span-1 lg:order-2 lg:col-span-2 lg:ml-auto md:w-full lg:max-w-[400px]">
+                            <div className="bg-[#F2F2F2] text-white rounded-md p-4 flex justify-between items-center">
+                                <h2 className="flex items-center text-xl gap-2">
+                                    <FaListAlt size={20} />
+                                    Table of Contents
+                                </h2>
+                                <BiUpArrowAlt size={25} />
+                            </div>
+                            <ul className="w-full">
+                                {/* <IconItem
+                                    icon={<BsDot />}
+                                    title="Our Process"
+                                    className="text-black mt-2"
+                                /> */}
+                                <div className="flex flex-row items-center py-2.5">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M11.25 4.5l7.5 7.5-7.5 7.5m-6-15l7.5 7.5-7.5 7.5" />
+                                    </svg>
+                                    <p className="text-sm text-black">What do our ecommerce SEO services include?
+                                    </p>
+                                </div>
+                                <div className="flex flex-row items-center py-2.5">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M11.25 4.5l7.5 7.5-7.5 7.5m-6-15l7.5 7.5-7.5 7.5" />
+                                    </svg>
+                                    <p className="text-sm text-black">Inside our ecommerce SEO services
+                                    </p>
+                                </div>
+                                <div className="flex flex-row items-center py-2.5">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M11.25 4.5l7.5 7.5-7.5 7.5m-6-15l7.5 7.5-7.5 7.5" />
+                                    </svg>
+                                    <p className="text-sm text-black">Why choose Muscled for your ecommerce SEO services?
+                                    </p>
+                                </div>
+                                <div className="flex flex-row items-center py-2.5">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M11.25 4.5l7.5 7.5-7.5 7.5m-6-15l7.5 7.5-7.5 7.5" />
+                                    </svg>
+                                    <p className="text-sm text-black">Why do ecommerce businesses need SEO?
+                                    </p>
+                                </div>
+                                <div className="flex flex-row items-center py-2.5">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M11.25 4.5l7.5 7.5-7.5 7.5m-6-15l7.5 7.5-7.5 7.5" />
+                                    </svg>
+                                    <p className="text-sm text-black">Ecommerce SEO perks
+                                    </p>
+                                </div>
+                                <div className="flex flex-row items-center py-2.5">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M11.25 4.5l7.5 7.5-7.5 7.5m-6-15l7.5 7.5-7.5 7.5" />
+                                    </svg>
+                                    <p className="text-sm text-black">FAQ on SEO for e-commerce websites
+
+                                    </p>
+                                </div>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
+
     </div>
 )}
 
