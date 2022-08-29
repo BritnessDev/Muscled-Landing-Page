@@ -5,6 +5,7 @@ import SEOMarketingSVG from "components/assets/svg/SEOMarketingSVG";
 import Logo from "components/Fawwaz/Logo";
 import logo from "components/assets/logo/logo1.png";
 import Button from "components/Fawwaz/Button";
+import ReactPlayer from 'react-player'
 import {
 Card,
 CardHeader,
@@ -410,6 +411,7 @@ return (<div>
                     <br />
                 </p>
             </div>
+            <div className='w-full relative max-w-[440px]'>
             <Card className="max-w-[440px] w-full p-6 rounded-md relative self-start">
                 <img src={cardBg.src} alt={cardBg.src} className="absolute top-0 left-0 w-full h-full z-10 rounded-xl" />
                 <p className="relative text-white max-w-[190px] z-20 font-semibold">
@@ -420,6 +422,28 @@ return (<div>
                     Request a Proposal
                 </Button>
             </Card>
+            <div className="max-w-[440px] w-full rounded-md relative self-start mt-12 h-64">
+                <ReactPlayer
+					className='react-player w-full h-full absolute'
+					url= 'videos/demo_video.MP4'
+					width='100%'
+					height='100%'
+					controls = {true}
+					/>
+            </div>
+
+            {/* <Card className="max-w-[440px] w-full p-6 rounded-md relative self-start mt-8">
+                <img src={cardBg.src} alt={cardBg.src} className="absolute top-0 left-0 w-full h-full z-10 rounded-xl" />
+                <p className="relative text-white max-w-[190px] z-20 font-semibold">
+                    Looking for custom plans and pricing? Request a
+                    proposal to receive yours.
+                </p>
+                <Button bgColor="bg-black" textColor="text-white" className="mt-6 relative z-20 font-medium">
+                    Request a Proposal
+                </Button>
+            </Card> */}
+            </div>
+            
         </div>
     </div>
 
