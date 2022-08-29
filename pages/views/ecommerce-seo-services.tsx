@@ -351,7 +351,7 @@ return (<div>
             </Card>
         </div>
 
-        <p className="underline text-center mt-14 mb-24 cursor-pointer">
+        <p className="underline text-center mt-14 mb-24 cursor-pointer text-[#5F27BD]">
             See Full Deliverables
         </p>
     </Section>
@@ -457,7 +457,7 @@ return (<div>
         <p className="Poppins text-xl font-thin w-9/12 mt-10 text-center">
             Learn more about what our ecommerce SEO services include by exploring our four ecommerce SEO packages, which
             we can customize to your business. All our ecommerce SEO experts are familiar<br/> with using and optimizing
-            platforms like Shopify, WordPress, BigCommerce, and more for <br/>ecommerce SEO.
+            platforms like <span className='font-bold'>Shopify, WordPress, BigCommerce,</span> and more for <br/>ecommerce SEO.
         </p>
         <div className="w-11/12 mt-10">
             <Table className="table-fixed">
@@ -942,7 +942,7 @@ return (<div>
                             </div>
                         </div>
                         <Button bgColor="bg-black" textColor="text-white" className="mt-14">
-                            <span className="text-sm md:col-span-1 flex flex-row items-center">
+                            <span className="px-1 text-sm md:col-span-1 flex flex-row items-center">
                                 Learn More
                                 <i className="text-sm">
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
@@ -2579,7 +2579,8 @@ return (<div>
                 </div>
             </div>
             <div className="w-1/3">
-                <div className="order-1 col-span-1 lg:order-2 lg:col-span-2 lg:ml-auto md:w-full lg:max-w-[400px]">
+                <div className="order-1 col-span-1 lg:order-2 lg:col-span-2 lg:ml-auto md:w-full lg:max-w-[400px] px-5 border-solid border-2 border-[#F2F2F2
+]">
                     <div className="bg-[#F2F2F2] text-white rounded-md p-4 flex justify-between items-center">
                         <h2 className="flex items-center text-xl gap-2">
                             <FaListAlt size={20} />
