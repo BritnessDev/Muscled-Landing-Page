@@ -116,3 +116,8 @@
 table tr {
 	border-bottom: 1px solid rgba(0, 0, 0, 0.1) 
 }
+
+.custom-back-div {
+	background: url("../components/assets/back.png") no-repeat left top, linear-gradient(#eb01a5, #d13531);
+	background-size: 100% 100%;
+}

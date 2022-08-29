@@ -882,9 +882,9 @@ return (<div>
                     <li>Monthly keyword, traffic, and transaction reporting</li>
                     <li>And more</li>
                 </ul>
-
+                {/* bg-gradient-to-l md:bg-gradient-to-r bg-[#2E1E34] */}
                 <div
-                    className="mt-5 bg-[#2E1E34] w-full rounded-lg text-white flex flex-row justify-between items-center px-3 bg-gradient-to-l md:bg-gradient-to-r">
+                    className="mt-5  w-full rounded-lg text-white flex flex-row justify-between items-center px-3 custom-back-div">
                     <div className="py-14 pl-10">
                         <div className="text-4xl	'Poppins' leading-snug font-bold">
                             Measure the<br />
