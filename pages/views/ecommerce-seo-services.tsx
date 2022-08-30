@@ -36,7 +36,7 @@ return (<div>
         />
     </div>
     {/* Our partner section */}
-    <Section className="text-center pt-8">
+    <Section className="text-center pt-12">
         <h3 className="text-black-50 text-2xl">Our Partners</h3>
 
         <div className="pt-5 flex flex-wrap justify-between pb-12 gap-6">
