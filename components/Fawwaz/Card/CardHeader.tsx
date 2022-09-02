@@ -4,7 +4,7 @@ import { CardHeaderProps } from "../component.type";
 const CardHeader: FC<CardHeaderProps> = ({ title, rate, type, children }) => {
 	return (
 		<div
-			className={`bg-[#fdf7f7] flex flex-col items-center justify-center py-10 ${
+			className={`bg-[#fdf7f7] flex flex-col items-center  rounded-t-md justify-center py-10 ${
 				type === "premium"
 					? "bg-red-6"
 					: type === "ultimate"

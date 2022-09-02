@@ -27,6 +27,10 @@ module.exports = {
 			fontFamily: {
 				sans: ["Poppins", ...defaultTheme.fontFamily.sans],
 			},
+			backgroundImage: {
+			'hero-pattern': "url('/components/assets/back.jpg')",
+			'footer-texture': "url('/img/footer-texture.png')",
+			}
 		},
 	},
 	plugins: [],

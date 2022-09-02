@@ -3,7 +3,7 @@ import { FC } from "react";
 import { Section } from "../Sections";
 import Button from "../Button";
 import VideoFrame from "components/Fawwaz/VideoFrame";
-
+import ReactPlayer from 'react-player'
 
 const Testimonials: FC = () => {
 	return (
@@ -27,8 +27,15 @@ const Testimonials: FC = () => {
 						See Our Client's Testimonials
 					</Button>
 				</div>
-				<div className="w-[500px] min-h-[400px] h-full bg-white-gray relative">
-					<VideoFrame className="w-full h-full absolute" allowFullScreen />
+				<div className="w-[500px] min-h-[400px] h-full bg-white-gray relative rounded-md">
+					{/* <VideoFrame className="w-full h-full absolute" allowFullScreen/> */}
+					<ReactPlayer
+					className='react-player w-full h-full absolute'
+					url= 'videos/demo_video.MP4'
+					width='100%'
+					height='100%'
+					controls = {true}
+					/>
 				</div>
 			</Section>
 		</div>
